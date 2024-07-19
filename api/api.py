@@ -5,11 +5,11 @@ from pydantic import BaseModel
 
 
 
-xgb_pipeline = joblib.load("../models/best_gs_model.joblib")
-log_pipeline = joblib.load("../models/log_model.joblib")
-svc_pipeline = joblib.load("../models/best_svc_model.joblib")
-catboost_pipeline = joblib.load("../models/best_catboost_model.joblib")
-encoder = joblib.load('../models/label_encoder.joblib')
+xgb_pipeline = joblib.load("./models/best_gs_model.joblib")
+log_pipeline = joblib.load("./models/log_model.joblib")
+svc_pipeline = joblib.load("./models/best_svc_model.joblib")
+catboost_pipeline = joblib.load("./models/best_catboost_model.joblib")
+encoder = joblib.load('./models/label_encoder.joblib')
 
 
 '''to run the API, run this line which is based on the api directory then 'uvicorn api(api python file):app(instance of fast API) --reload' '''

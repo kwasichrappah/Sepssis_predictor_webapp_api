@@ -12,4 +12,8 @@ services:
       - '8501:8501'
 
 
+
+
+
+
 #docker-compose up to run the docker file
