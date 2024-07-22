@@ -31,14 +31,14 @@ The dataset used for this project contains historical information about customer
 ## Getting Started
 1. Clone the repository:
 
-   #git clone https://github.com/kwasichrappah/Sepsiss.git
+   #git clone https://github.com/kwasichrappah/Sepssis_predictor_webapp_api
 
-   cd Customer-Churn
+   cd Sepssis_predictor
 2. Install dependencies:
 
    pip install -r requirements.txt
 
-3. Rn the Docker container for the web interface and the api
+3. Run the Docker container for the web interface and the api
 
 ## Dependencies
 - Python 3.x
