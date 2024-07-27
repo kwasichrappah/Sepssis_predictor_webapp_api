@@ -5,7 +5,7 @@ FROM python:3.11.0
 COPY requirements.txt  tmp/requirements.txt 
 
 # Install the dependencies specified in the requirements.txt file
-RUN python -m pip install --timeout 3000 -r /tmp/requirements.txt
+RUN python -m pip install --timeout 3000 --no-cache-dir -r /tmp/requirements.txt
 
 COPY  . /app 
 

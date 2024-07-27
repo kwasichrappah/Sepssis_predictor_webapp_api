@@ -2,7 +2,7 @@ import streamlit as st
 import requests
  
  
-backend_url = "http://127.0.0.1:8000"
+backend_url = "http://api:80"
  
 #set up page config
 st.set_page_config(

@@ -5,12 +5,17 @@ services:
      context: ./api
     ports:
       - '80:80'
+    volumes: 
+      - ./api:/app
   client:
     build:
       context: ./frontend
     ports:
       - '8501:8501'
-
+    volumes: 
+      - ./frontend:/frontend
+    depends_on:
+      - api
 
 
 

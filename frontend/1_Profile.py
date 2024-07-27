@@ -11,8 +11,8 @@ st.set_page_config(
 
 
 
-st.title ("Sepssis ML Predictor WebApp")
-st.write("This is a ML model application that predicts whether a patient is likely to have Sepssis or not.")
+st.title ("Sepsis ML Predictor WebApp")
+st.write("This is a ML model application that predicts whether a patient is likely to have Sepsis or not.")
 st.write("It uses ML algorithms to make these predictions.")
 tab1, tab2, tab3 = st.tabs(["Problem Statement","Key Features", "Key Metrics and Success Criteria"])
 
